@@ -1,0 +1,36 @@
+
+{
+  "data": [
+    {
+      "provider": "Mercado Libre",
+      "url": "https://listado.mercadolibre.com.mx/running-shoes",
+      "identifiers": {
+        "main": ".ui-search-result__wrapper",
+        "image": ".slick-slide.slick-active img",
+        "price": ".ui-search-price.ui-search-price--size-medium.ui-search-item__group__element .ui-search-price__second-line .price-tag .price-tag-fraction",
+        "title": ".ui-search-item__group.ui-search-item__group--title h2"
+      }
+    },
+    {
+      "provider": "Alibaba",
+      "url": "https://www.alibaba.com/trade/search?fsb=y&IndexArea=product_en&CatId=&SearchText=Running+shoes",
+      "identifiers": {
+        "main": ".list-no-v2-inner.m-gallery-product-item-v2.img-switcher-parent",
+        "image": ".J-img-switcher-item",
+        "price": ".elements-offer-price-normal__price",
+        "title": ".elements-title-normal__content"
+      }
+    },
+    
+    {
+      "provider": "Amazon",
+      "url": "https://www.amazon.com.mx/s?k=running+shoes&__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss_1",
+      "identifiers": {
+        "main": ".a-section.a-spacing-medium.a-text-center",
+        "image": ".s-image",
+        "price": ".a-offscreen",
+        "title": ".a-size-base-plus.a-color-base.a-text-normal"
+      }
+    }
+  ]
+}
